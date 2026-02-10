@@ -42,20 +42,13 @@ export default function Projects() {
             >
               {/* Content */}
               <div className="p-6 flex flex-col flex-1">
-                <div className="flex items-start justify-between mb-3">
-                  <div>
-                    <h3 className="text-xl font-bold text-white mb-1 group-hover:text-primary-400 transition-colors">
-                      {project.title}
-                    </h3>
-                    <p className="text-primary-400/70 text-sm font-medium">
-                      {project.subtitle}
-                    </p>
-                  </div>
-                  {project.featured && (
-                    <span className="px-2.5 py-1 text-xs font-medium rounded-full bg-primary-600/90 text-white shrink-0 ml-3">
-                      Featured
-                    </span>
-                  )}
+                <div className="mb-3">
+                  <h3 className="text-xl font-bold text-white mb-1 group-hover:text-primary-400 transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="text-primary-400/70 text-sm font-medium">
+                    {project.subtitle}
+                  </p>
                 </div>
 
                 <p className="text-dark-400 text-sm leading-relaxed mb-5 flex-1">
