@@ -41,7 +41,9 @@ export default function About() {
                 <MapPin size={20} />
               </div>
               <div>
-                <p className="text-dark-500 text-xs uppercase tracking-wider">Location</p>
+                <p className="text-dark-500 text-xs uppercase tracking-wider">
+                  Location
+                </p>
                 <p className="text-white font-medium text-sm">
                   {personalInfo.location}
                 </p>
@@ -52,7 +54,9 @@ export default function About() {
                 <Mail size={20} />
               </div>
               <div>
-                <p className="text-dark-500 text-xs uppercase tracking-wider">Email</p>
+                <p className="text-dark-500 text-xs uppercase tracking-wider">
+                  Email
+                </p>
                 <p className="text-white font-medium text-sm">
                   {personalInfo.email}
                 </p>
